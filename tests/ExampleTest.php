@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelCrudGenerator\LaravelCrudGenerator\Tests;
+namespace Dthornes\LaravelAdminCrudGenerator\Tests;
 
 use Orchestra\Testbench\TestCase;
-use LaravelCrudGenerator\LaravelCrudGenerator\LaravelCrudGeneratorServiceProvider;
+use Dthornes\LaravelAdminCrudGenerator\LaravelAdminCrudGeneratorServiceProvider;
 
 class ExampleTest extends TestCase
 {
 
     protected function getPackageProviders($app)
     {
-        return [LaravelCrudGeneratorServiceProvider::class];
+        return [LaravelAdminCrudGeneratorServiceProvider::class];
     }
     
     /** @test */

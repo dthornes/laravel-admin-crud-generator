@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelCrudGenerator\LaravelCrudGenerator;
+namespace Dthornes\LaravelAdminCrudGenerator;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \LaravelCrudGenerator\LaravelCrudGenerator\Skeleton\SkeletonClass
+ * @see \Dthornes\LaravelAdminCrudGenerator\Skeleton\SkeletonClass
  */
-class LaravelCrudGeneratorFacade extends Facade
+class LaravelAdminCrudGeneratorFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelCrudGeneratorFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-crud-generator';
+        return 'laravel-admin-crud-generator';
     }
 }

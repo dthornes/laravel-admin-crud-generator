@@ -1,11 +1,11 @@
 {
-    "name": "laravelcrudgenerator/laravel-crud-generator",
+    "name": "dthornes/laravel-admin-crud-generator",
     "description": "",
     "keywords": [
-        "laravelcrudgenerator",
-        "laravel-crud-generator"
+        "dthornes",
+        "laravel-admin-crud-generator"
     ],
-    "homepage": "https://github.com/dthornes/laravel-crud-generator",
+    "homepage": "https://github.com/dthornes/laravel-admin-crud-generator",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelCrudGenerator\\LaravelCrudGenerator\\": "src"
+            "Dthornes\\LaravelAdminCrudGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaravelCrudGenerator\\LaravelCrudGenerator\\Tests\\": "tests"
+            "Dthornes\\LaravelAdminCrudGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelCrudGenerator\\LaravelCrudGenerator\\LaravelCrudGeneratorServiceProvider"
+                "Dthornes\\LaravelAdminCrudGenerator\\LaravelAdminCrudGeneratorServiceProvider"
             ],
             "aliases": {
-                "LaravelCrudGenerator": "LaravelCrudGenerator\\LaravelCrudGenerator\\LaravelCrudGeneratorFacade"
+                "LaravelAdminCrudGenerator": "Dthornes\\LaravelAdminCrudGenerator\\LaravelAdminCrudGeneratorFacade"
             }
         }
     }

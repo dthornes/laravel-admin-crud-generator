@@ -1,9 +1,9 @@
-# Laravel Crud Generator
+# Laravel Admin Crud Generator
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravelcrudgenerator/laravel-crud-generator.svg?style=flat-square)](https://packagist.org/packages/laravelcrudgenerator/laravel-crud-generator)
-[![Build Status](https://img.shields.io/travis/laravelcrudgenerator/laravel-crud-generator/master.svg?style=flat-square)](https://travis-ci.org/laravelcrudgenerator/laravel-crud-generator)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laravelcrudgenerator/laravel-crud-generator.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravelcrudgenerator/laravel-crud-generator)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravelcrudgenerator/laravel-crud-generator.svg?style=flat-square)](https://packagist.org/packages/laravelcrudgenerator/laravel-crud-generator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dthornes/laravel-admin-crud-generator.svg?style=flat-square)](https://packagist.org/packages/dthornes/laravel-admin-crud-generator)
+[![Build Status](https://img.shields.io/travis/dthornes/laravel-admin-crud-generator/master.svg?style=flat-square)](https://travis-ci.org/dthornes/laravel-admin-crud-generator)
+[![Quality Score](https://img.shields.io/scrutinizer/g/dthornes/laravel-admin-crud-generator.svg?style=flat-square)](https://scrutinizer-ci.com/g/dthornes/laravel-admin-crud-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/dthornes/laravel-admin-crud-generator.svg?style=flat-square)](https://packagist.org/packages/dthornes/laravel-admin-crud-generator)
 
 Tired of manually creating models/controllers/routes and views for CRUD management? Well so was I. 
 
@@ -12,7 +12,7 @@ Tired of manually creating models/controllers/routes and views for CRUD manageme
 You can install the package via composer:
 
 ```bash
-composer require dthornes/laravel-crud-generator
+composer require dthornes/laravel-admin-crud-generator
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ If you discover any security related issues, please email daniel.thornes@drpgrou
 
 ## Credits
 
-- [Dan Thornes](https://github.com/laravelcrudgenerator)
+- [Dan Thornes](https://github.com/dthornes)
 - [All Contributors](../../contributors)
 
 ## License
